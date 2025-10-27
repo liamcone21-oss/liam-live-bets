@@ -1,0 +1,1 @@
+export function americanToDecimal(am:number){return am>0?1+am/100:1+100/Math.abs(am);}
